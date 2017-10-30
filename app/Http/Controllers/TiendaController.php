@@ -8,4 +8,10 @@ class TiendaController extends Controller{
   {
       return "Esto muestra un producto. Recibiendo $id";
   }
+  
+  public function numero_de_empleados($ciudad, $tienda = 1)
+  {
+      return "en $ciudad hay empleados en la tienda $tienda";
+  }
+  
 }

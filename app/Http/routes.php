@@ -35,6 +35,9 @@ Route::get('/parametro/{nombre}', function($nombre){
 //controladores
 Route::get('/tienda/producto/{id}', 'TiendaController@producto');
 Route::get('/home/index', 'HomeController@index');
+
+//controladores/parametros opcionales
+Route::get('/tienda/num_empleados/{ciudad}/{tienda?}', 'TiendaController@numero_de_empleados');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

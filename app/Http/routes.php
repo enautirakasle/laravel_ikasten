@@ -14,10 +14,27 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/test', function () {
     return "Kaixo laravel";
 });
 
+Route::get('/probando/ruta', function(){
+  return 'get';
+});
+
+Route::post('/probando/ruda', function(){
+  return 'post';
+});
+
+//parametros
+Route::get('/parametro/{nombre}', function($nombre){
+  return "hola soy $nombre";
+});
+
+//controladores
+Route::get('/tienda/producto/{id}', 'TiendaController@producto');
+Route::get('/home/index', 'HomeController@index');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

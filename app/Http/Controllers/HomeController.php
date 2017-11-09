@@ -42,8 +42,9 @@ class PrimerController extends Controller
     \App\Article::all();
   }
   
-}
-d2){
+
+
+	public function getId($id1, $id2){
 		return "<p>Los dos ids son : " . $id1 . " y " . $id2 . "</p>";
 	}
 	

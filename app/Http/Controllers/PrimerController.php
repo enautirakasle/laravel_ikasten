@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+<<<<<<< HEAD
 class PrimerController extends <?php
 namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
@@ -29,6 +30,9 @@ class TiendaController extends Controller{
   }
   
 }Controller
+=======
+class PrimerController extends Controller
+>>>>>>> 2bab87205abbbbf326348a72428931b5c7810036
 {
 
    public function recibirPostId(Request $request){

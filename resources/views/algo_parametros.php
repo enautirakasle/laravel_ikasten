@@ -8,7 +8,7 @@
 
 <body>
   <h1>Vista "algo"</h1>
-  <p>Esta es mi segunda vista en Laravel</p>
+  <p>Esta es mi segunda vista en Laravel laster euskeraz</p>
   <table>
     <tr>
       <td>id</td>

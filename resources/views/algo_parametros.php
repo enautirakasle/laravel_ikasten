@@ -3,7 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
+<<<<<<< HEAD
   <title>Probarako bista bat da jajaja</title>
+=======
+  <title>Probarako bista bat da euskeraz</title>
+>>>>>>> 7179b3c015cb342aca168588297fc83a18ce9a28
 </head>
 
 <body>

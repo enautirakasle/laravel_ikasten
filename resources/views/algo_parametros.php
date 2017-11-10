@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Probarako bista bat da</title>
+  <title>Probarako bista bat da jajaja</title>
 </head>
 
 <body>

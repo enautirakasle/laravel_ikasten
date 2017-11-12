@@ -37,6 +37,7 @@ Route::get('/tienda/producto/{id}', 'TiendaController@producto');
 Route::get('/tienda/producto_num/{id}', 'TiendaController@producto_num')->where(['id'=>'[0-9]+']);
 Route::get('/home/index', 'HomeController@index');
 Route::get('/articulo/{id}', 'ArticulosController@ver');
+Route::get('/articulos/todos', 'ArticulosController@todos');
 Route::get('/ver_url', 'CategoriaController@mostrarUriUrl');
 Route::get('/form', 'PrimerController@form');
 
@@ -69,7 +70,6 @@ Route::post('todos', 'PrimerController@recibirPostTodos');
 
 //controladores/parametros opcionales
 Route::get('/tienda/num_empleados/{ciudad}/{tienda?}', 'TiendaController@numero_de_empleados');
->>>>>>> 090cc825611b6474d948bd2268495b4469a6f6b5
 /*
 |--------------------------------------------------------------------------
 | Application Routes

@@ -15,8 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
-=======
+
 Route::get('/test', function () {
     echo "Kaixo laravel erz dumoz";
 });
@@ -71,8 +70,6 @@ Route::post('todos', 'PrimerController@recibirPostTodos');
 
 //controladores/parametros opcionales
 Route::get('/tienda/num_empleados/{ciudad}/{tienda?}', 'TiendaController@numero_de_empleados');
->>>>>>> 090cc825611b6474d948bd2268495b4469a6f6b5
->>>>>>> e4728dae35d70016b261a288a0488397b4611293
 /*
 |--------------------------------------------------------------------------
 | Application Routes

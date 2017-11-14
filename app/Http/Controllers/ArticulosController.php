@@ -7,4 +7,8 @@ class ArticulosController extends Controller{
   public function ver($id){
     return view('articulos.ver', ['id' => $id]);
   }
+  
+  public function todos(){
+     dd(\App\Article::all());
+  }
 }

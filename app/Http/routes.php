@@ -51,6 +51,35 @@ Route::get('/form', 'PrimerController@form');
 
 Route::get('/articulos', 'PrimerController@articulos');
 
+//responses
+Route::get('respuesta', function(){
+	return response('Hola respuesta', 200);
+});
+
+Route::get('respuesta2', function(){
+  return response('error', 404);
+});
+
+Route::get('respuesta3', function(){
+  return response('1, 2, 3, 4\n5, 6, 7, 8', 200)
+    ->header('Content-Type', 'text/csv');
+});
+
+Route::get('respuesta4', function(){
+  return response('', 301)
+    ->header('location', 'http://www.desarrolloweb.com');
+});
+
+Route::get('respuesta5', function(){
+  return redirect('http://www.google.com');
+});
+
+Route::get('respuesta6', function(){
+	return response()
+		->view('errors/503')
+		->header('status', 404)
+		->header('Refresh', '5; url=/');
+});
 
 //rutas que abren vistas
 Route::get('algo', function(){

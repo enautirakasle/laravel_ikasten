@@ -15,16 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+/*
 Route::get('/test', function () {
     echo "Kaixo laravel erz dumoz";
 });
+*/
 
-/*
 Route::get('/test', ['middleware' => 'domingo', function(){
     return 'Probando ruta con middleware';
 }]);
-*/
+
 
 
 Route::get('/probando/ruta', function(){
